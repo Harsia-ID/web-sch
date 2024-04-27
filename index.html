@@ -4,16 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link rel="stylesheet" href="style.css">
     <title>SMK KIMOCI - JAKARTA SELATAN</title>
 </head>
 <!-- DIBUAT OLEH HADI PRASETIA -->
 
 <body>
-    <header class="bg-primary border-bottom border-body fixed-top">
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-body-secondary bg-primary border-bottom border-body fixed-top" aria-label="Tenth navbar example">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">SMK KIMOCI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#admission">
+                                Student Acceptance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <nav class="navbar navbar-expand-lg bg-body-secondary bg-primary border-bottom border-body fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">SMK KIMOCI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -26,10 +64,11 @@
                             <a class="nav-link text-dark " href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark " href="#about">Tentang Kami</a>
+                            <a class="nav-link text-dark " href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark " href="#admission">Penerimaan</a>
+                            <a class="nav-link text-dark " href="#admission">
+                                Student Acceptance</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark " href="#contact">Contact</a>
@@ -37,12 +76,72 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
-
     <!-- DIBUAT OLEH HADI PRASETIA -->
     <section id="home">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./U1.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </img>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>School No 1.</h1>
+                            <p class="opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./U2.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </img>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>School No 1.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./U3.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </img>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>School No 1.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./1.png" class="d-block w-100" alt="...">
@@ -85,10 +184,52 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div> -->
+        <!-- Three columns of text below the carousel -->
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </svg>
+                    <h2 class="fw-normal">Kepala Sekolah</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. </p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </svg>
+                    <h2 class="fw-normal">Wakil KS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. </p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                    </svg>
+                    <h2 class="fw-normal">Another Wakil</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. </p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
         </div>
-
     </section>
-    <hr class="featurette-divider">
+    <div class="container">
+        <hr class="featurette-divider" class="reveal">
+    </div>
 
     <!-- DIBUAT OLEH HADI PRASETIA -->
 
@@ -96,9 +237,10 @@
         <div class="container">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Tentang <span class="text-body-secondary">Kami</span>
+                    <h2 class="featurette-heading fw-normal lh-1 reveal">About <span class="text-body-secondary reveal">Us.</span>
                     </h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <p class="lead reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
                         incididunt ut labore et
                         dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Arcu dictum
                         varius
@@ -107,9 +249,7 @@
                         massa id neque.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" src="./1.1.png" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto reveal" width="500" height="500" src="./1.1.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title></title>
                     </img>
                 </div>
@@ -117,78 +257,122 @@
         </div>
     </section>
     <!-- DIBUAT OLEH HADI PRASETIA -->
-    <hr class="featurette-divider">
+    <div class="container">
+        <hr class="featurette-divider" class="reveal">
+    </div>
 
     <section id="admission" class="reveal">
         <div class="container">
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Penerimaan <span class="text-body-secondary">
-                            Murid.</span></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <h2 class="featurette-heading fw-normal lh-1 reveal">
+                        Student <span class="text-body-secondary">
+                            Acceptance</span></h2>
+                    <p class="lead reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
                         incididunt ut labore et
                         dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Arcu dictum
                         varius
                         duis at consectetur. Pulvinar neque laoreet suspendisse interdum consectetur libero. Nulla
                         porttitor
                         massa id neque.</p>
-                    <a href="#" class="btn">Daftar Sekarang !</a>
+                    <a href="#" class="btn reveal">Join Us</a>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" src="./1.2.png" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto reveal" width="500" height="500" src="./1.2.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                        fill="var(--bs-secondary-color)" dy=".3em"></text>
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text>
                     </svg>
                 </div>
             </div>
         </div>
     </section>
-
-    <hr class="featurette-divider">
-
+    <div class="container">
+        <hr class="featurette-divider reveal">
+    </div>
+    <section id="hero" class="reveal">
+        <div class="container">
+            <h2 class="text-light reveal">Menjadi Sekolah Nomor 1 Di dunia</h2>
+            <p class="text-light reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Arcu dictum varius
+                duis at consectetur. Pulvinar neque laoreet suspendisse interdum consectetur libero. Nulla porttitor
+                massa id neque. </p>
+            <a href="#admission" class="btn">Join Now !!</a>
+        </div>
+    </section>
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
     <section id="contact" class="reveal">
         <div class="container">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Kontak <span class="text-body-secondary">Kami.</span>
-                    </h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Arcu dictum
-                        varius
-                        duis at consectetur. Pulvinar neque laoreet suspendisse interdum consectetur libero. Nulla
-                        porttitor
-                        massa id neque.</p>
-                    <p>Email : SMKKIMOCI@GMAIL.COM</p>
-                    <p>Telepon : 0000-6666-0000</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            <div class="card">
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row featurette">
+                            <div class="col-md-5 order-md-1">
+                                <div class="card-title">
+                                    <h2 class="featurette-heading fw-normal lh-1 reveal">Contact <span class="text-body-secondary">Us.</span>
+                                </div>
+                                </h2>
+                                <p class="lead reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                                <p>Email : SMKKIMOCI@GMAIL.COM</p>
+                                <p>Telepon : 0000-6666-0000</p>
+                            </div>
+                            <div class="col-md-7 order-md-2 reveal">
+                                <form class="row g-3">
+                                    <div class="col-md-12">
+                                        <label for="inputEmail4" class="form-label">Your Name : </label>
+                                        <input type="text" class="form-control" id="inputEmail4" placeholder="John Wick">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Your Email : </label>
+                                        <input type="email" class="form-control" id="inputAddress" placeholder="examples@email.com">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress2" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Your
+                                            Messagge</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Check me out
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                    <!-- <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" src="./1.3.png" role="img" aria-label="Placeholder: 500x500"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
                         fill="var(--bs-secondary-color)" dy=".3em"></text>
                     </svg>
+                     -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <hr class="featurette-divider">
-    <section id="hero" class="reveal">
-        <div class="container">
-            <h2>Menjadi Sekolah Nomor 1 Di dunia</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Arcu dictum varius
-                duis at consectetur. Pulvinar neque laoreet suspendisse interdum consectetur libero. Nulla porttitor
-                massa id neque. </p>
-            <a href="#admission" class="btn">Daftar Sekarang!</a>
-        </div>
-    </section>
-    <hr class="featurette-divider">
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
+
     <!-- DIBUAT OLEH HADI PRASETIA -->
 
     <footer class="bg-dark">
@@ -197,26 +381,25 @@
         </div>
     </footer>
     <script>
-    function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
 
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 150;
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
 
-            if (elementTop < windowHeight - elementVisible) {
-                reveals[i].classList.add("active");
-            } else {
-                reveals[i].classList.remove("active");
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
             }
         }
-    }
 
-    window.addEventListener("scroll", reveal);
+        window.addEventListener("scroll", reveal);
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
 
