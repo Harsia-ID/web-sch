@@ -12,8 +12,8 @@ This assignment asks students to create a simple website using PHP, HTML, and CS
 
 ## Screenshots
 
-![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s1.png))
-![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s2.png))
-![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s3.png))
-![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s4.png))
-![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s5.png))
+![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s1.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s1.png))
+![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s2.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s2.png))
+![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s3.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s3.png))
+![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s4.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s4.png))
+![App Screenshot]([https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s5.png](https://raw.githubusercontent.com/Harsia-ID/web-sch/main/s5.png))
